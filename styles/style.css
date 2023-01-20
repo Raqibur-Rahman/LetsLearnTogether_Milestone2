@@ -68,7 +68,7 @@ nav li{
     text-align: center;
 }
 
-.header-content button{
+.header-content button,.feature-explore-btn{
     background: #FF900E;
     border-radius: 8px;
     width: 180px;
@@ -76,7 +76,7 @@ nav li{
     border:none;
     
 }
-.header-explore-btn{
+.header-explore-btn, .feature-explore-btn{
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 600;
@@ -90,7 +90,65 @@ nav li{
 }
 
 .architects-images img{
-    width: 875px;
+    width: 975px;
     height: 583px;
+}
+
+/* features styles  */
+.features{
+    display: flex;
+    align-items: center;
+}
+
+.feature-images{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    margin: 75px 35px 35px 255px;
+    
+}
+
+.feature-description{
+    margin: 75px 155px 35px 25px;
+}
+
+
+.feature-images .images img{
+    width: 225px;
+    height: 225px;
+    /* border: 0.5px solid rgb(80, 79, 79); */
+}
+
+.feature-description-heading{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    color: #727272;
+}
+
+.feature-description-content{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.feature-span-our{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 53px;
+    color: #131313;
+}
+
+.feature-span-feature{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 53px;
+    color: #FF900E;
 }
 
