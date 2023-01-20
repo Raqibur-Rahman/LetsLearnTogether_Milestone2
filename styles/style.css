@@ -98,6 +98,7 @@ nav li{
 .features{
     display: flex;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .feature-images{
@@ -143,6 +144,7 @@ nav li{
     color: #131313;
 }
 
+
 .feature-span-feature{
     font-family: 'Work Sans';
     font-style: normal;
@@ -151,4 +153,99 @@ nav li{
     line-height: 53px;
     color: #FF900E;
 }
+
+ /* Second feature styles  */
+
+
+ .Feature-2{
+    display: flex;
+    margin: 5px 175px 50px 175px;
+
+ }
+
+.second-feature-title{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 7px;
+
+    /* Dark 01 */
+
+    color: #131313;
+}
+
+
+ .feature-2-main-div1{
+    height: 982px;
+    width: 586px;
+    left: 240px;
+    top: 2284px;
+    border-radius: [object Object]px;
+    
+
+ }
+
+ .feature-2-divs{
+    box-shadow: 0 4px 8px 0  rgba(144, 143, 143, 0.19), 0 6px 20px 0 rgba(168, 168, 168, 0.19);
+    padding: 15px 15px 15px 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+ }
+
+ .feature-2-divs-title{
+    margin-bottom: 11px;
+ }
+
+ .feature-2-main-div2{
+    height: 982px;
+    width: 586px;
+    left: 240px;
+    top: 2284px;
+    border-radius: [object Object]px;
+
+ }
+ .feature-2-main-div2 img{
+    width: 495px;
+    height: 735px;
+    padding-left: 55px;
+ }
+ .title-with-vl{
+    display: flex;
+}
+
+
+ .vl{
+    border-left: 3px solid #FF900E;;
+    height: 95px;
+ }
+
+ .feature-explore-last-btn{
+    background: #FF900E;
+    border-radius: 8px;
+    border:none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    border-color: none;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+
+    position: absolute;
+    top: 385%;
+    left: 47%;
+    padding: 12px 24px;
+    cursor: pointer;
+    text-align: center;
+    width: 171px;
+    height: 100px;
+
+
+
+
+
+ }
+
 
