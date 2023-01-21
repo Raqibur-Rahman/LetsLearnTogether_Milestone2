@@ -680,7 +680,7 @@ Media Queries
         padding-bottom: 25px;
     }
 
-    .footer,.main{
+    .footer,.features,.Feature-2,.fact-section,.Sponspor,.Contact{
         display: none;
     }
 
