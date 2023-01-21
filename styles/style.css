@@ -3,7 +3,7 @@
 
 *{
     font-family: 'Work Sans', sans-serif;
-    margin: 0;
+    margin: 0px;
 }
 /* Header and Navigation Style  */
 header{
@@ -679,8 +679,33 @@ Media Queries
         color: #131313;
         padding-bottom: 25px;
     }
+    *{
+        font-family: 'Work Sans', sans-serif;
+        margin: 0; 
+    }
 
-    .footer,.features,.Feature-2,.fact-section,.Sponspor,.Contact{
+    /* Footer design */
+    .footer{
+       
+        margin: 50px 0px 350px 0px; 
+        background: #edd2b1;
+        border-radius: 8px;
+        padding: 5px 0px 5px 0px; 
+        text-align: center;
+        
+    }
+
+    .footer-para{
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+        color: #424242;
+        /* width: 100%; */
+    }
+
+    .features,.Feature-2,.fact-section,.Sponspor,.Contact{
         display: none;
     }
 
