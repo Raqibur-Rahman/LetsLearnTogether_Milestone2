@@ -314,7 +314,10 @@ nav li{
     background: #d3fae2;
 }
 .contat-title-div{
-    text-align: center;
+    text-align: left;
+    /* margin-top: ; */
+    padding-top: 75px;
+    margin-left: 187px;
 }
 .contact-via{
     padding: 0px 10px 10px 0px;
@@ -345,7 +348,7 @@ nav li{
 
 .contact-email-phn{
     border: 1px solid rgb(139, 137, 123);
-    padding: 19px 0px 0px 7px 
+    padding: 25px 0px 0px 25px 
 }
 
 .submit-button{
@@ -406,6 +409,18 @@ nav li{
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 50px;
+}
+
+
+
+.contact-via-text{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    /* text-align: center; */
+    padding: 0px 0px 25px 0px;
+    color: #727272;
 }
 
 /* Footer design */
@@ -576,7 +591,7 @@ Media Queries
         color: #FFFFFF;
         margin-bottom: 25px; 
         position: absolute;
-        top: 725%;
+        top: 425%;
         left: 25%;
         padding: 12px 24px;
         cursor: pointer;
@@ -651,12 +666,26 @@ Media Queries
     .sponsors-img-div img{
         padding-bottom: 25px;
     }
+    .contact-email-phn {
+        border: 1px solid rgb(139, 137, 123);
+        padding: 25px 0px 0px 5px;
+    }
 
     .contact-property{
         display: flex;
         flex-direction: column;
-        padding: 5px 3px 5px 55px;
+        padding: 5px 3px 5px 0px;
         align-items: center;
+    }
+
+    .contact-via-text {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        /* text-align: center; */
+        padding: 0px 5px 25px 5px;
+        color: #727272;
     }
 
     .contat-title-div{
@@ -667,6 +696,7 @@ Media Queries
         font-size: 35px;
         color: #131313;
         padding-bottom: 25px;
+        margin-left: 0px;
 
     }
 
@@ -675,10 +705,26 @@ Media Queries
         font-family: 'Work Sans';
         font-style: normal;
         font-weight: 500;
-        font-size: 23px;
+        font-size: 19px;
         color: #131313;
         padding-bottom: 25px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
+
+    .contact-text,.contact-form{
+        width: 100%; 
+        padding: 3px 3px 3px 3px;
+    }
+
+
+    .contact-text-field{
+        height: 155px;
+        width: 100%;
+        margin-top: 25px;
+    }
+
+
     *{
         font-family: 'Work Sans', sans-serif;
         margin: 0; 
@@ -705,9 +751,7 @@ Media Queries
         /* width: 100%; */
     }
 
-    .features,.Feature-2,.fact-section,.Sponspor,.Contact{
-        display: none;
-    }
+  
 
 
 }
