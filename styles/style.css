@@ -116,6 +116,7 @@ nav li{
 .feature-images .images img{
     width: 225px;
     height: 225px;
+    border: 5px solid white;
     /* border: 0.5px solid rgb(80, 79, 79); */
 }
 
@@ -311,7 +312,7 @@ nav li{
 
 
 .Contact{
-    background: #d3fae2;
+    background: rgba(14, 255, 235, 0.1);
 }
 .contat-title-div{
     text-align: left;
@@ -573,7 +574,7 @@ Media Queries
       */
      .feature-2-main-div2 img{
         width: 100%;
-        height: 735px;
+        height: 575px;
         padding: 0px 3px 0px 3px;
 
      }
@@ -591,7 +592,7 @@ Media Queries
         color: #FFFFFF;
         margin-bottom: 25px; 
         position: absolute;
-        top: 425%;
+        top: 411%;
         left: 25%;
         padding: 12px 24px;
         cursor: pointer;
