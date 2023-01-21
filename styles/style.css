@@ -76,7 +76,7 @@ nav li{
     border:none;
     
 }
-.header-explore-btn, .feature-explore-btn{
+.header-explore-btn{
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 600;
@@ -244,9 +244,13 @@ nav li{
 
 .fact-text{
     margin-left: 195px;
+    margin-right: 195px;
 }
 
-.fact-title{
+
+
+
+.fact-title,.contat-title{
     
     font-family: 'Work Sans';
     font-style: normal;
@@ -300,6 +304,73 @@ nav li{
     
 }
 
+/* Contact */
+.contact-property{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 55px 55px 55px;
+    align-items: center;
+}
+
+
+.Contact{
+    background: #d3fae2;
+}
+.contat-title{
+    padding: 35px 195px 0px 195px;
+}
+.contact-via{
+    padding: 0px 10px 10px 0px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: #131313;
+    padding-bottom: 25px;
+}
+
+.contact-form,.contact-text{
+    width: 50%;
+    padding-left: 135px;
+}
+.contact-text-field{
+    height: 155px;
+    width: 355px;
+    margin-top: 25px;
+}
+
+.contact-email{
+    height: 35px;
+    width: 175px;
+    margin-top: 25px;
+}
+
+.submit-button{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    border-color: none;
+    color: #FFFFFF;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.submit-button{
+    background: #FF900E;
+    border-radius: 8px;
+    width: 115px;
+    height: 55px;
+    border:none;
+    
+}
+
+
+
+
+
 /* sponsored style  */
 .Sponspor{
     margin-top: 95px;
@@ -334,9 +405,9 @@ nav li{
     padding-bottom: 50px;
 }
 
-
+/* Footer design */
 .footer{
-    margin: 0px 250px 50px 250px;
+    margin: 50px 250px 50px 250px;
     background: #edd2b1;
     border-radius: 8px;
     padding: 25px 0px 25px 0px; 
@@ -349,11 +420,120 @@ nav li{
     font-weight: 400;
     font-size: 15px;
     text-align: center;
-
-    /* Dark 02 */
-
     color: #424242;
 }
 
+
+/* ----------------------
+Media Queries
+------------------ */
+
+/* Mobile Devices */
+
+@media only screen and (max-width:688px) {
+    .header,.main,.footer{
+        width: 100%;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0;
+        
+    }
+
+    .nav-title{
+        font-family: 'Work Sans', sans-serif;
+        font-size: 35px;
+        color: #131313;
+        margin: 0px 0px 0px 0px;
+        padding: 25px 0px 5px 55px;
+    }
+
+    .nav ul {
+        margin-top: 15px;
+        margin-right: 141px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+    }
+    .nav-li{
+        padding-top: 10px;
+        padding-left: 55px;
+    }
+
+
+    .main-head-line{
+
+        margin-left: 5px;
+        margin-top: 25px;
+        margin-right:5px;
+    
+    }
+
+    .content-head-line{
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 33px;
+        text-align: center;
+        padding-bottom: 9px;
+    }
+
+    .content-para{
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        /* width: 100%; */
+    }
+
+
+    .architects-images img{
+        width: 100%;
+        height: 325px;
+    }
+
+    .header-content{
+        width: 100%;
+    }
+
+
+    /* Features Styles  */
+    .features{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .feature-images{
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+        margin: 3px 3px 3px 3px;
+        
+    }
+
+    .feature-description{
+        margin: 75px 25px 35px 25px;
+        text-align: center;
+
+    }
+
+    .feature-description-content{
+        padding-bottom: 15px;
+    }
+    
+
+
+
+    .Sponspor,.fact-section,.Feature-2,.Contact,.footer{
+        display: none;
+    }
+
+
+}
 
 
